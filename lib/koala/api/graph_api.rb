@@ -38,7 +38,7 @@ module Koala
       #
       # @param id the object ID (string or number)
       # @param args any additional arguments
-      #         (fields, metadata, etc. -- see {http://developers.facebook.com/docs/reference/api/ Facebook's documentation})
+      #         (fields, metadata, etc. -- see {http://developers.facebook.com/docs/reference/api/#searching/ Facebook's documentation})
       # @param options (see Koala::Facebook::API#api)
       # @param block for post-processing. It receives the result data; the
       #        return value of the method is the result of the block, if
@@ -301,7 +301,7 @@ module Koala
       end
 
       # Search for a given query among visible Facebook objects.
-      # See {http://developers.facebook.com/docs/reference/api/#searching Facebook documentation} for more information.
+      # See {https://developers.facebook.com/docs/graph-api/using-graph-api#search Facebook documentation} for more information.
       #
       # @param search_terms the query to search for
       # @param args additional arguments, such as type, fields, etc.
